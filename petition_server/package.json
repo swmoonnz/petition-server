@@ -1,0 +1,24 @@
+{
+  "name": "seng365-petition-site-api",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node server.js",
+    "debug": "node --trace-warnings %NODE_DEBUG_OPTION% server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "crypto-js": "^4.0.0",
+    "crypto-random-string": "^3.2.0",
+    "demon": "^1.4.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "humps": "^2.0.1",
+    "mysql2": "^2.1.0",
+    "mz": "^2.7.0",
+    "no": "0.0.1",
+    "node-js": "^1.0.0",
+    "nodemon": "^2.0.2"
+  }
+}
